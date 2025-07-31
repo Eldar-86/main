@@ -43,3 +43,4 @@ def tablica_mnozenja():
         except ValueError:
             print("Samo cijele brojeve možeš unositi.")
             continue
+            
