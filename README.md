@@ -1,1 +1,1 @@
-This repository contains a collection of small Python projects I've created while learning the language. Each project serves as a practice or learning or knowledge expanding exercise on different concepts and features in Python.
+This repository contains a collection of small Python projects I've created while learning the language. Each project serves as a practice, learning or knowledge expanding exercise on different concepts and features in Python.
