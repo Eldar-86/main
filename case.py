@@ -1,6 +1,6 @@
-name =  input("").capitalize()
+name =  input("> ").lower()
 match name:
-    case "Iron Mike" | "Mike" | "Kid Dynamite" | "The Baddest Man On The Planet" | "Mike Tyson": print("Michael Gerard Tyson")
-    case "Mm" | "The Blond Bombshell" | "Marilyn Monroe": print("Norma Jeane Mortenson")
-    case "Buster" | "Young Jimmy" | "Jimi" | "Jimi Hendrix": print("Johnny Allen Hendrix")
-    case _: print("invalid input")
+    case "iron mike" | "mike" | "kid dynamite" | "the baddest man on the planet" | "mike tyson": print("Michael Gerard Tyson")
+    case "mm" | "the blond bombshell" | "marilyn monroe": print("Norma Jeane Mortenson")
+    case "buster" | "young jimmy" | "jimi" | "jimi hendrix": print("Johnny Allen Hendrix")
+    case _: print("invalid input", name)
