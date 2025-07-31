@@ -30,7 +30,7 @@ def vjezbalica_mnozenja():
                 continue
         except ValueError:
             print(f"Samo cijeli brojevi se prihvaćaju... a odgovor je bio {result}.")
-            continue
+            continue #I need to add a list of multiplictions already generated to avoid repetition
 
 def tablica_mnozenja():
     while True:
