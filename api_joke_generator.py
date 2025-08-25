@@ -12,12 +12,9 @@ while True:
             time.sleep(4)
             print(f"- {joke['delivery']}\n")
             time.sleep(4)
-        elif joke["type"] == "single":
+        else:
             print(f"{joke['joke']}\n")
             time.sleep(8)
-        else:
-            print("None valid.")
-            break
     except KeyError:
         print("0")
         break
