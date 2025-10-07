@@ -33,7 +33,7 @@ def word_guess():
             restart = input("Želiš li opet igrati? (d/n): ").lower()
             if restart == 'd':
                 word_list.remove(word)
-                word_guess()
+                return word_guess(word_list)
             else:
                 print("Zatvaram program...")
             break
