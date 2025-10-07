@@ -30,7 +30,7 @@ def word_guess():
             break
         else:
             print("Tačno!")
-            restart = input("Želiš li ponovo pokušati? (d/n): ").lower()
+            restart = input("Želiš li opet igrati? (d/n): ").lower()
             if restart == 'd':
                 word_list.remove(word)
                 word_guess()
