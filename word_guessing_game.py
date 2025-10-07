@@ -24,7 +24,6 @@ def word_guess():
             print(f"Ne, riječ je {word}. Više sreće drugi put!")
             restart = input("Želiš li ponovo pokušati? (d/n): ").lower()
             if restart == 'd':
-                word_list.remove(word)
                 word_guess()
             else:
                 print("Zatvaram program...")
