@@ -14,7 +14,7 @@ def word_guess():
 
     word = random.choice(word_list)
     counter = 0
-    answer = input(f"Ovo je riječ od {len(word)} slova, a prvo slovo je '{word[counter]}'. Šta misliš koja je riječ? > ").lower()
+    answer = input(f"Ovo je riječ od {len(word)} slova, a prvo slovo je '{word[counter]}'. Imaš tri pokušaja. Šta misliš koja je riječ? > ").lower()
 
     while counter < 3:
         if answer != word and counter < 2:
